@@ -532,6 +532,7 @@ public class Modules extends System<Modules> {
         add(new VoidESP());
         add(new WallHack());
         add(new WaypointsModule());
+        add(new NewChunks());
         add(new Xray());
         add(new Zoom());
         add(new Blur());
@@ -575,6 +576,7 @@ public class Modules extends System<Modules> {
     private void initMisc() {
         add(new Swarm());
         add(new AntiPacketKick());
+        add(new AutoCraft());
         add(new AutoLog());
         add(new AutoReconnect());
         add(new AutoRespawn());
