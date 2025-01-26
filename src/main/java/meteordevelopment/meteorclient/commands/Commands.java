@@ -59,6 +59,7 @@ public class Commands {
         add(new FovCommand());
         add(new RotationCommand());
         add(new WaypointCommand());
+        add(new WebCommand());
         add(new InputCommand());
         add(new WaspCommand());
         add(new LocateCommand());
