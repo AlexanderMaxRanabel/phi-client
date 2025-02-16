@@ -574,7 +574,6 @@ public class Modules extends System<Modules> {
     }
 
     private void initMisc() {
-        add(new Swarm());
         add(new AntiPacketKick());
         add(new AutoCraft());
         add(new AutoLog());
@@ -593,6 +592,7 @@ public class Modules extends System<Modules> {
         add(new ServerSpoof());
         add(new SoundBlocker());
         add(new Spam());
+        add(new Swarm());
     }
 
     public static class ModuleRegistry extends SimpleRegistry<Module> {
